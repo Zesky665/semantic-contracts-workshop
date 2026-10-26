@@ -268,8 +268,6 @@ def upgrade() -> None:
         ),
     )
 
-    ## test
-
     op.create_table(
         "object_copyright",
         sa.Column(

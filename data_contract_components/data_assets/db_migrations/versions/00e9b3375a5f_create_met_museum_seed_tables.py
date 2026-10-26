@@ -267,7 +267,7 @@ def upgrade() -> None:
             comment=column_comment_dict["created_at"]
         ),
     )
-    
+
     op.create_table(
         "object_copyright",
         sa.Column(
